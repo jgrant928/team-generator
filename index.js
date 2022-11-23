@@ -1,6 +1,7 @@
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
-const Intern = require('./lib/Intern');
+const = require('./lib/Intern');
+const Intern = require("./lib/Intern.1");
 const inquirer = require('inquirer');
 const path = require('path');
 const fs = require('fs');
@@ -158,7 +159,7 @@ function appMenu() {
                 },
               },
             ])
-            .then(answers => {
+            .then((answers) => {
                 const engineer = new Engineer(answers.engineerName, answers.engineerId, answers.engineerEmail, answers.engineerGithub);
                 teamMembers.push(engineer);
                 idArray.push(answers.engineerId);
@@ -216,7 +217,7 @@ function appMenu() {
                 },
             },
         ])
-        .then(answers => {
+        .then((answers) => {
             const intern = new Intern(answers.internName, answers.internId, answers.internEmail, answers.internSchool);
             teamMembers.push(intern);
             idArray.push(answers.internId);
