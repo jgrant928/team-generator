@@ -6,7 +6,7 @@ This is a command-line application that takes in information about employees on 
 
 Video Walkthrough Link: https://user-images.githubusercontent.com/112264295/203460511-f2b60962-e499-4a12-93cd-fbd3672f1de1.mp4
 
-Sample Image: ![Sample Image](Sample Image: "https://user-images.githubusercontent.com/112264295/203460591-ab0d87d9-7784-4532-b00a-5a275d8a7c11.png")
+Sample Image: ![Sample Image]("https://user-images.githubusercontent.com/112264295/203460591-ab0d87d9-7784-4532-b00a-5a275d8a7c11.png")
 
 ## Table of Contents
 
